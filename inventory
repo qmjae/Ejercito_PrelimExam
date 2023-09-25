@@ -1,0 +1,6 @@
+[Ubuntu]
+192.168.56.102  python_package=python3 pip_package=python3-pip java_package=openjdk-11-jdk new_user=ansible_user
+
+[CentOS]
+192.168.56.104  python_package=python3 pip_package=python3-pip java_package=java-11-openjdk-devel new_user=ansible_user 
+192.168.56.104  ansible_python_interpreter=/usr/bin/python2
